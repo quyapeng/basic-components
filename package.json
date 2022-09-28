@@ -1,0 +1,36 @@
+{
+  "name": "basic-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sb": "start-storybook -p 6006",
+    "build:sb": "build-storybook -c .storybook -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quyapeng/basic-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quyapeng/basic-components/issues"
+  },
+  "homepage": "https://github.com/quyapeng/basic-components#readme",
+  "dependencies": {
+    "@types/react": "^16.14.14",
+    "@types/react-dom": "^16.9.14",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@storybook/react": "^6.3.7",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.3.0",
+    "ts-loader": "^6.0.4"
+  }
+}
