@@ -3,3 +3,4 @@ packages/*/lib
 packages/*/legacy/dist
 .vscode
 .DS_Store
+docs
